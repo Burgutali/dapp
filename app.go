@@ -3,12 +3,12 @@ package main
 import (
     "net/http"
 	"github.com/julienschmidt/httprouter"
-    "github.com/jbenet/go-ipfs/core"
+    "github.com/ipfs/go-ipfs/core"
 	"path"
 	"html/template"
 	"fmt"
 	"log"
-	"github.com/go-kerala/kerala"
+	"github.com/Burgutali/kerala"
 	peer "github.com/jbenet/go-ipfs/p2p/peer"
 )
 
